@@ -1,9 +1,9 @@
-import './authHero.css';
+import "./authHero.css";
 
-const AuthHero = ({illustration}) => {
+const AuthHero = ({ illustration }) => {
   return (
     <div className="auth-hero">
-      <span className="auth-hero__logo">Tasky</span>
+      <span className="auth-hero__logo">Beauty</span>
       <figure className="auth-hero__illustration">
         <img
           src={illustration}

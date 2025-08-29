@@ -14,7 +14,7 @@ const Navigation = () => {
     <div>
       <nav className="navigation">
         <div>
-          <h1 className="navigation-logo">Tasky</h1>
+          <h1 className="navigation-logo">Beauty</h1>
 
           <NavLink className="nav-link" to="/procedures" end>
             <img src={dashboardIcon} alt="" className="nav-link__icon" />

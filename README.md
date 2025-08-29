@@ -1,9 +1,8 @@
 # ✅ Task Management App – Full Stack Overview
 
-This is a full-stack **Task Management App** built with **React (Vite)** for the frontend and **Node.js (Express)** with **PostgreSQL** for the backend. It supports **user authentication**, **task and category management**, and uses **JWT for Authentication**.  
+This is a full-stack **beauty services Management App** built with **React (Vite)** for the frontend and **Node.js (Express)** with **PostgreSQL** for the backend. It supports **user authentication**, and uses **JWT for Authentication**.
 
 ---
-
 
 ## 🛠 Project Initialization
 
@@ -76,11 +75,9 @@ npm run dev
 
 ## 🧩 Frontend Routing Overview
 
-| Path           | Component        | Lazy Loaded | Protected |
-|----------------|------------------|-------------|-----------|
-| `/login`       | Login            | ✅           | ❌         |
-| `/signup`      | Signup           | ✅           | ❌         |
+| Path      | Component | Lazy Loaded | Protected |
+| --------- | --------- | ----------- | --------- |
+| `/login`  | Login     | ✅          | ❌        |
+| `/signup` | Signup    | ✅          | ❌        |
 
-all other protected
----
-
+## all other protected
