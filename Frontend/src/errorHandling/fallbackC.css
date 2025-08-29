@@ -1,0 +1,34 @@
+.fallback-container {
+  text-align: center;
+  padding: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.fallback-image {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.alert__headline {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+}
+
+.alert__text {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+}
+
+.fallback-button {
+  padding: 10px 20px;
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

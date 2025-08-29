@@ -1,0 +1,67 @@
+.signup-form-layout {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 3.75rem;
+  border-bottom-right-radius: 10%;
+  border-top-right-radius: 10%;
+  min-height: 37rem;
+  align-items: center;
+  gap: 1.5rem;
+  color: #282c82;
+  font-family: "Ubuntu", sans-serif;
+
+}
+
+.signup-form__headline {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #282c82;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-width: 21rem;
+}
+
+.form__input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__inputfield {
+  border: 1px #c0c1d3 solid;
+  border-radius: 10px;
+  padding: 0.3rem 0.5rem;
+}
+
+.signup-form__btn {
+  background-color: #9674D3;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding-block: 0.3rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+.signup-form__btn:hover{
+  background-color: #6253C6;
+}
+
+.signup-form__link{
+  text-decoration: underline;
+}
+
+.signup-form__link:hover{
+  color: #549087;
+}
+
+.form__footer{
+  display: flex;
+  gap: 1rem;
+}

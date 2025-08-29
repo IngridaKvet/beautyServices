@@ -1,0 +1,32 @@
+.addTaskForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form__input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form__inputfield {
+  border: 1px #c0c1d3 solid;
+  border-radius: 10px;
+  padding: 0.3rem 0.5rem;
+}
+
+.addTaskForm__btn {
+  background-color: #515cc8;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+ width: 100%;
+ padding-block: 0.5rem;
+ margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+.form__title{
+  font-weight: 600;
+}

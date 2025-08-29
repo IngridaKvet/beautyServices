@@ -1,0 +1,24 @@
+meta {
+  name: PostProcedure
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:3001/api/v1/procedures
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "New beauty heloo",
+    "category_id": "1",
+    "duration": "02:00:00",
+    "img_url": "https:example.png"
+  }
+}
+
+settings {
+  encodeUrl: true
+}

@@ -1,0 +1,35 @@
+.auth-hero {
+  background-color: #f0ebff;
+  padding: 3.75rem 1.5rem 3.75rem 3.75rem;
+  border-bottom-left-radius: 10%;
+  border-top-left-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.auth-hero__logo {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 3.125rem;
+  color: #544ca3;
+}
+
+.auth-hero__illustration {
+  max-width: 23rem;
+}
+
+.nav__link{
+display: flex;
+gap: 1rem;
+min-width: 13rem;
+color: #fff;
+padding: 1rem 2rem;
+border-radius: 1rem;
+}
+
+.active{
+  background-color:  #3B47AB;
+}

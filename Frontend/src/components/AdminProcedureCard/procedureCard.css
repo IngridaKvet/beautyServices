@@ -1,0 +1,21 @@
+.procedureCard {
+  border: 1px solid grey;
+  border-radius: 20px;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.procedure_img {
+  max-width: 200px;
+}
+
+.registerButton {
+  color: #fff;
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+  border-radius: 12px;
+  background-color: #10bd24;
+  max-width: 150px;
+  margin-left: 5px;
+}

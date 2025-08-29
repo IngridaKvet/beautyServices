@@ -1,0 +1,22 @@
+.button__section {
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.deleteBtn,
+.cancelBtn {
+  color: #fff;
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+  border-radius: 12px;
+}
+
+.deleteBtn {
+  background-color: #515cc8;
+}
+
+.cancelBtn {
+  background-color: #e02b2b;
+}

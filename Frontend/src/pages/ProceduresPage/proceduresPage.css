@@ -1,0 +1,22 @@
+.itemsPage {
+  display: flex;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  overflow: hidden;
+}
+
+.items {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 1.5rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  min-height: 600px;
+  min-width: 640px;
+  max-height: 600px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #515cc8 transparent;
+}

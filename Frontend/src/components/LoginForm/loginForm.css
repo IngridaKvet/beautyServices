@@ -1,0 +1,73 @@
+.login-form-layout {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 3.75rem;
+  border-bottom-right-radius: 10%;
+  border-top-right-radius: 10%;
+  align-items: center;
+  gap: 1.5rem;
+  color: #282c82;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.login-form__headline {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #282c82;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 21rem;
+}
+
+.form__input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form__inputfield {
+  border: 1px #c0c1d3 solid;
+  border-radius: 10px;
+  padding: 0.3rem 0.5rem;
+}
+
+.login-form__btn {
+  background-color: #9674d3;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-block: 0.8rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+.login-form__btn:hover {
+  background-color: #6253c6;
+}
+
+.login-form__link {
+  text-decoration: underline;
+}
+
+.login-form__link:hover {
+  color: #549087;
+}
+
+.error__bar {
+  color: #ff1a12;
+
+  display: flex;
+  justify-content: center;
+}
+
+.form__footer {
+  display: flex;
+  gap: 1rem;
+}

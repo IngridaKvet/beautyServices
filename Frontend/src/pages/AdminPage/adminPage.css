@@ -1,0 +1,81 @@
+.itemsPage {
+  display: flex;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  overflow: hidden;
+}
+
+.items {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 1.5rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  min-height: 600px;
+  min-width: 640px;
+  max-height: 600px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #515cc8 transparent;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 21rem;
+}
+
+.form__input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form__inputfield {
+  border: 1px #c0c1d3 solid;
+  border-radius: 10px;
+  padding: 0.3rem 0.5rem;
+}
+
+.login-form__btn {
+  background-color: #9674d3;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-block: 0.8rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+.login-form__btn:hover {
+  background-color: #6253c6;
+}
+
+.login-form__link {
+  text-decoration: underline;
+}
+
+.login-form__link:hover {
+  color: #549087;
+}
+
+.error__bar {
+  color: #ff1a12;
+
+  display: flex;
+  justify-content: center;
+}
+
+.closeButton {
+  color: #fff;
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+  border-radius: 12px;
+  background-color: #ef5108;
+  max-width: 150px;
+  margin-top: 10px;
+}

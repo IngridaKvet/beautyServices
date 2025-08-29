@@ -1,0 +1,21 @@
+meta {
+  name: PatchProcedure
+  type: http
+  seq: 6
+}
+
+patch {
+  url: http://localhost:3001/api/v1/procedures
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "New beauty NEWWWWW"
+  }
+}
+
+settings {
+  encodeUrl: true
+}
