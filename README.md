@@ -1,4 +1,4 @@
-# ✅ Task Management App – Full Stack Overview
+# ✅ Beauty Services Management App – Full Stack Overview
 
 This is a full-stack **beauty services Management App** built with **React (Vite)** for the frontend and **Node.js (Express)** with **PostgreSQL** for the backend. It supports **user authentication**, and uses **JWT for Authentication**.
 
