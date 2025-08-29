@@ -81,3 +81,10 @@ npm run dev
 | `/signup` | Signup    | ✅          | ❌        |
 
 ## all other protected
+
+## 🧩 Logins
+
+For simple user to create use registration form
+For admin use:
+ing1@gmail.com
+pass
